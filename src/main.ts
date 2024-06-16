@@ -7,10 +7,10 @@ import { apolloClient } from "@/apollo/apollo";
 import router from "@/router/router";
 import { i18n } from "@/i18n";
 import { TooltipDirective } from "./directives/Tooltip";
+import FontAwesomeIcon from "./test.vue";
 import App from "@/App.vue";
 import "@/icons";
 import { plugin as formkit, defaultConfig as formkitConfig } from "@formkit/vue";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "@scss/forms.scss";
 // TODO: remove this after building a custom theme for forms
 import "no-darkreader";

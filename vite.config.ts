@@ -18,13 +18,6 @@ export default ({ mode }) => {
 						vendor: ["vue", "vue-router", "vue-i18n", "vue-cookie-next"],
 						gql: ["subscriptions-transport-ws", "graphql"],
 						apollo: ["apollo-link-context", "@vue/apollo-composable"],
-						fa: [
-							"@fortawesome/fontawesome-svg-core",
-							"@fortawesome/free-brands-svg-icons",
-							"@fortawesome/free-regular-svg-icons",
-							"@fortawesome/sharp-solid-svg-icons",
-							"@fortawesome/vue-fontawesome",
-						],
 						routing: [
 							"./src/router/router.ts",
 							"./src/router/home.route.ts",
